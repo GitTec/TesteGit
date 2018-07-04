@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         bt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getBaseContext(),Tela2.class));
+                startActivity(new Intent(MainActivity.this,Tela2.class));
             }
         });
     }
